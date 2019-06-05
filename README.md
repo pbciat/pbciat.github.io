@@ -1,4 +1,4 @@
-# 網頁 IAT Demo
+# IAT 網頁版
 
 ## Dependencies
 
@@ -18,7 +18,7 @@ pip install websockets
     curl -L https://bit.ly/2ME6NAS | python3
     ```
 
-2. 前往 https://pbciat.github.io/pbc-final/websocket-demo/
+2. 前往 https://pbciat.github.io/
 
 ### Windows
 
@@ -30,5 +30,5 @@ pip install websockets
     python C:\<path>\server.py
     ```
 
-3. 前往 https://pbciat.github.io/pbc-final/websocket-demo/
+3. 前往 https://pbciat.github.io/
 
