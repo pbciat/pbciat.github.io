@@ -1,0 +1,152 @@
+body {
+    font-size: 1.3em;
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -999;
+    margin: auto;
+}
+
+.button-cue {
+    padding-top: 50px;
+    height: 120px;
+}
+
+.left-cue {
+    width: 10%;
+    height: 100px;
+    padding-left: 10px;
+    float: left;
+}
+
+.right-cue {
+    width: 10%;
+    height: 100px;
+    padding-right: 10px;
+    float: right;
+    text-align: right;
+}
+
+.stimulus {
+    margin-top: 100px;
+    text-align: center;
+}
+
+#left-cue1,
+#left-cue2,
+#right-cue1,
+#right-cue2 {
+    display: block;
+}
+
+
+/* 正負向 文字刺激 顏色 */
+
+#left-cue1,
+#right-cue1 {
+    color: green;
+}
+
+.cue {
+    display: block;
+    font-size: 0.8em;
+}
+
+.picture {
+    width: 65%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -20%;
+    margin-left: -32.5%;
+}
+
+#TWpic {
+    width: 100%;
+}
+
+.bottom {
+    width: 400px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    margin-left: -200px;
+}
+
+.next {
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 25px;
+    margin-top: 140px;
+    border-width: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 3px;
+    font-size: 12pt;
+    padding: 0px;
+}
+
+#E,
+#I {
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(124, 120, 120);
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+#E {
+    margin-left: 80px;
+    float: left;
+}
+
+#I {
+    margin-right: 80px;
+    float: right;
+}
+
+.word {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12pt;
+    letter-spacing: 5px;
+}
+
+.EI {
+    position: absolute;
+    width: 80%;
+    top: 600px;
+    left: 50%;
+    margin-left: -40%;
+}
+
+.inst {
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(255, 255, 255, 0.699);
+    text-align: center;
+    color: grey;
+    font-weight: bold;
+    line-height: 35px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+
+#test-feedback {
+    color: white;
+}
